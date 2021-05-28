@@ -1,0 +1,182 @@
+	/*------ Barra superior ------*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #333;
+}
+
+
+	/*------ logo/login/pesquisa -----*/	
+.logo {
+	border-radius: 85%;
+	height: 125px;
+	width: 125px;
+}
+html {
+	background: url(imagens/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.text-container {
+ max-width: 960px;
+ position: absolute;
+ top: 200;
+ left: 70;
+}
+
+h1 {
+ font-family: 'Roboto', sans-serif;
+ color: #fff;
+ font-size: 156px;
+ text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.1);
+ text-transform: uppercase;
+}
+
+.ajuda {
+	width: 100px;
+	padding-right: 50px;
+}
+
+.login{
+	width: 100px;
+	padding-right: 40px;
+}
+
+.box{
+	height: 400px;
+}
+
+.w3-container{
+	width: 900px;
+}
+
+
+
+	
+	/*-- Ofertas --*/
+	div.gallery {
+  margin: 10px;
+  border: 1px solid #ccc;
+  width: 290px;
+  display: inline-block;
+  height: 290px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.text-ofertas-small{
+	padding: 10px 0;
+	font-size: 22px;
+	margin: 10px;
+	color: #fff;
+}
+
+.text-ofertas-big{
+	color: #fff;
+}
+
+.w3-container-ofertas{
+	width: 1500px;
+	opacity: 0.5;
+}
+
+.w3-container-galeria{
+	width: 1500px;
+}
+
+
+
+
+
+ 	/*----- contato -----*/
+
+ 	.contact{
+	padding-top: 50px;
+	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(imagens/background2.gif);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+.contact .row{
+	padding: 10px 0;
+	font-size: 22px;
+	margin: 50px;
+}
+
+.contact .col-md-4 .fa{
+	padding: 10px
+	font-size: 40px;
+}
+
+.contact .btn{
+	padding: 10px 25px 10px 25px;
+	margin: 5px;
+	border-radius: 30px;
+	border: 2px solid #fff;
+	background: transparent;
+}
+
+.contact .btn: focus{
+	box-shadow: none;
+}
+
+.contact .btn:hover{
+	border: 2px solid #000;
+	background: #000;
+	transition: 0.6s;
+}
+
+.contact .btn .fa{
+	margin-right: 10px;
+}
+
+.footer{
+	background: #000;
+	height: 50px;
+	margin-top: 50px;
+	color: #fff;
+	padding-top: 10px;
+}
+
+.contact .btn-primaryF{
+	color: #fff;
+}
+
+.contact .btn-primaryT{
+	color: #fff;
+}
+
